@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;500;600;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Kanit', sans-serif;
+  
+}
+
+.hero__title{
+  display: flex;
+  gap: 10px;
+  font-size: 280px;
+  font-weight: 700;
+  color: aqua;
+  opacity: 0.3;
+}
+
+.hero__description{
+  font-size: 32px;
+  color: aliceblue;
+}
+/* .hero__title > span {
+  animation: blinking 3s ease-in-out infinite;
+}
+
+@keyframes blinking {
+  0% {
+    opacity: 1;
+  }
+  50%{
+    opacity:0;
+  }
+  100% {
+    opacity: 1;
+  }
+} */
